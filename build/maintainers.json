@@ -4039,7 +4039,9 @@
     "nczitzk",
     "bigfei"
   ],
-  "/jandan/:category": [],
+  "/jandan/:category": [
+    "citrusice"
+  ],
   "/japanpost/track/:reqCode/:locale?": [
     "tuzi3040"
   ],

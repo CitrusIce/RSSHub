@@ -51400,8 +51400,33 @@
       },
       "/:category": {
         "path": "/:category",
-        "name": "Unknown",
-        "maintainers": [],
+        "categories": [
+          "picture"
+        ],
+        "example": "/jandan/top",
+        "parameters": {
+          "category": "板块名称，默认为 top，可选 top, pic, ooxx"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "jandan.net/:category"
+            ],
+            "target": "/:category"
+          }
+        ],
+        "name": "板块",
+        "maintainers": [
+          "citrusice"
+        ],
         "location": "section.ts"
       }
     },

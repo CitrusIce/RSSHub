@@ -19967,6 +19967,19 @@
       }
     ]
   },
+  "jandan.net": {
+    "_name": "煎蛋",
+    ".": [
+      {
+        "title": "板块",
+        "docs": "https://docs.rsshub.app/routes/picture",
+        "source": [
+          "/:category"
+        ],
+        "target": "/jandan/:category"
+      }
+    ]
+  },
   "javbus.com": {
     "_name": "JavBus",
     "www": [
