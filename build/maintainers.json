@@ -4037,10 +4037,12 @@
   ],
   "/jandan/": [
     "nczitzk",
-    "bigfei"
+    "bigfei",
+    "pseudoyu"
   ],
-  "/jandan/:category": [
-    "citrusice"
+  "/jandan/:category/:type?": [
+    "nczitzk",
+    "pseudoyu"
   ],
   "/japanpost/track/:reqCode/:locale?": [
     "tuzi3040"
@@ -4232,6 +4234,9 @@
   ],
   "/jou/yztzgg": [
     "real-jiakai"
+  ],
+  "/jpmorganchase/": [
+    "dousha"
   ],
   "/jpxgmn/search/:kw": [
     "Urabartin"
